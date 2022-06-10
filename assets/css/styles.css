@@ -1,5 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #242635;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    height: 60px;
+    /*box-shadow: 0 5px 10px 5px #242635;*/
+}
+nav > div > img{
+    width: 45px;
+    color: #34B0BE;
+}
+
+li {
+    color: white;
+    margin: 0 2rem 0 2rem;
+}
+.first{
+    color: #34B0BE;
+}
+
+input#menu-hamburguesa{
+    visibility: hidden;
+}
+
+input#menu-hamburguesa ~ ul{
+    background-color: rgb(26, 252, 79);
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: calc( 100vh - 60px );
+    top: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    display: none;
+}
+
+input#menu-hamburguesa:checked ~ ul{
+    display: flex;
+}
+
+
+@media screen and ( min-width:600px ) {
+    label{
+        display: none;
+    }
+
+    input#menu-hamburguesa ~ ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: flex-end;
+    }
 }
