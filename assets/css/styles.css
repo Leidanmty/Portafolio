@@ -47,7 +47,7 @@ input#menu-hamburguesa{
 }
 
 input#menu-hamburguesa ~ ul{
-    background-color: rgb(26, 252, 79);
+    background-color: #d1CeCA;
     list-style: none;
     position: absolute;
     width: 100%;
