@@ -77,11 +77,36 @@ input#menu-hamburguesa:checked ~ ul{
     height: 500px;
     border-radius: 50%;
     align-self: center;
+}
+.part-two{
+    display: flex;
+    justify-content: center;
+}
 
+.part-two > img{
+    height: 480px;
+}
+
+.part-One{
+    background: #d1CeCA;
+    padding: 1rem 2rem;
+    position: absolute;
+    right: 70%;
+}
+
+.experiencia{
+    background: #d1CeCA;
+    padding: 1rem 2rem;
+    position: absolute;
+    left: 60%;
+}
+
+.experiencia > .iconos {
+    display: inline-block;
 }
 
 .rectangule{
-    background-color: #d1ceca5b;
+    background-color: #d1ceca;
     width: 70%;
     height: 200px;
     border-radius: 10px;
@@ -89,6 +114,8 @@ input#menu-hamburguesa:checked ~ ul{
     position: absolute;
     top: 95%;
 }
+
+
 
 
 @media screen and ( min-width:600px ) {
