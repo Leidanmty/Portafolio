@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --color-azul: #34B0BE;
+    --color-gris: #D1CECA;
+    --color-darkblue: #242635;
+    --font-family: 'Montserrat', sans-serif;
+    --font-seizeTitle: 112px;
+    --font-seizeSubtitle: 50px;
+    --font-seizeSubseccion: 32px;
+    --font-seizeRegualr: 16px;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -72,7 +85,7 @@ input#menu-hamburguesa:checked ~ ul{
 }
 
 .circul{
-    background-color: #d1ceca5b;
+    background-color: #d1ceca;
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -88,14 +101,39 @@ input#menu-hamburguesa:checked ~ ul{
 }
 
 .part-One{
-    background: #d1CeCA;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     position: absolute;
-    right: 70%;
+    right: 76%;
+    width: 300px;
+}
+
+h1{
+    color: var(--color-azul);
+    font-size: var(--font-seizeTitle);
+    font-weight: bold;
+}
+
+h2{
+    color: var(--color-azul);
+    font-size: var(--font-seizeSubseccion);
+}
+
+h3{
+    font-size: var(--font-seizeSubtitle);
+    font-weight:lighter;
+    color: white;
+}
+
+hr{
+    margin: .5rem;
+}
+
+p{
+    color: white;
+    font-size: var(--font-seizeSubseccion);
 }
 
 .experiencia{
-    background: #d1CeCA;
     padding: 1rem 2rem;
     position: absolute;
     left: 60%;
