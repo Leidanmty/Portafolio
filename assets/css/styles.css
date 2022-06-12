@@ -66,24 +66,28 @@ input#menu-hamburguesa:checked ~ ul{
 }
 
 .cabecera{
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
 }
 
 .circul{
-    background-color: #d1CeCA;
+    background-color: #d1ceca5b;
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    align-items: center;
+    align-self: center;
 
 }
 
 .rectangule{
-    background-color: #d1CeCA;
-    width: 500px;
+    background-color: #d1ceca5b;
+    width: 70%;
     height: 200px;
     border-radius: 10px;
+    align-self: center;
+    position: absolute;
+    top: 95%;
 }
 
 
