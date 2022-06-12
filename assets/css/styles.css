@@ -85,7 +85,7 @@ input#menu-hamburguesa:checked ~ ul{
 }
 
 .circul{
-    background-color: #d1ceca;
+    background-color: #d1ceca50;
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -134,9 +134,18 @@ p{
 }
 
 .experiencia{
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     position: absolute;
     left: 60%;
+}
+
+.experiencia > .iconos{
+    background: var(--color-gris);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
 }
 
 .experiencia > .iconos {
@@ -144,7 +153,7 @@ p{
 }
 
 .rectangule{
-    background-color: #d1ceca;
+    background-color: #d1ceca50;
     width: 70%;
     height: 200px;
     border-radius: 10px;
