@@ -103,7 +103,7 @@ input#menu-hamburguesa:checked ~ ul{
 .part-One{
     padding: 1rem 1rem;
     position: absolute;
-    right: 76%;
+    right: 70%;
     width: 300px;
 }
 
@@ -142,25 +142,52 @@ p{
 .experiencia > .iconos{
     background: var(--color-gris);
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     display: flex;
+    padding: .76rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     justify-content: center;
-}
-
-.experiencia > .iconos {
     display: inline-block;
 }
 
+
 .rectangule{
     background-color: #d1ceca50;
-    width: 70%;
+    width: 50%;
     height: 200px;
     border-radius: 10px;
+    padding-top: 1.5rem;
     align-self: center;
     position: absolute;
-    top: 95%;
+    top: 64%;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.rectangule > .servicio{
+    width: 200px;
+    height: 150px;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 5px;
+    background-color: var(--color-gris);
+}
+
+.rectangule > .servicio > .google{
+    margin-left: 1.5rem;
+}
+
+.rectangule > .servicio > .amazon{
+    margin-left: 1.2rem;
+}
+
+.rectangule > .servicio > .spotify{
+    margin-left: 1.8rem;
+    margin-top: .3rem;
+}
+
 
 
 
