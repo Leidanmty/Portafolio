@@ -521,7 +521,7 @@ footer > .pie > h4{
     }
 }
 
-@media screen and ( min-width:380px ) {
+@media screen and ( min-width:300px ) {
     .circul{
         background-color: #d1ceca50;
         width: 300px;
@@ -655,4 +655,207 @@ footer > .pie > h4{
         text-align: center;
         font-weight: normal;
     }
+
+    .servicios{
+        margin-top: 100px;
+        padding: 0;
+    }
+    
+    .servicios > .yo{
+        font-size: 42px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .card{
+        width: 350px;
+        height: 450px;
+        margin-right: 15px;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .logo, .vocine, .lupa{
+        position: relative;
+        width: 125px;
+        height: 125px;
+        left: 100px;
+        bottom: 115px;
+    }   
+    
+    
+    .ux{
+        color: black;
+        font-size: 32px;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .card > p{
+        color: var(--color-gris);
+        font-size: var(--font-seizeRegualr);
+        padding-left: 1rem;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .articulos{
+        width: 380;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        overflow-x: scroll;
+    }
+
+    
+
+    .skill {
+        margin-top: 100px;
+        width: auto;
+        padding: 1rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skill > .yo{
+        font-size: 42px;
+        font-weight: normal;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    
+    .habilidad{
+        text-align: left;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+    
+    progress::-webkit-progress-bar {
+        background-color: #f9f5f2; 
+        height: 1.25rem;
+        width: 100%;
+        border-radius: 1rem;
+    }
+    
+    progress {
+        width: 100%;
+        border-radius: 1rem;
+        background-color: #eeeeee;
+        height: 1.25rem;
+        border-radius: 1rem;
+        color: white;
+    }
+    
+    /* value: */
+    progress::-webkit-progress-value {
+        background-color: #34B0BE;
+        border-radius: 1rem;
+    }
+    progress::-moz-progress-bar {
+        background-color: #34B0BE;
+    }
+
+    .trabajos{
+        margin-top: 100px;
+        padding: 0;
+    }
+    
+    .trabajos > .yo{
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 42px;
+        font-family: var(--font-family);
+        font-weight: normal;
+    }
+    
+    .trabajos > .cuadro{
+        width: auto;
+        height: 450px;
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .trabajos > .cuadro > .quest {
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .trabajos > .cuadro > .quest > img{
+        width: 500px;
+    }
+    
+    .contacto{
+        margin-top: 100px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        overflow: hidden;
+    }
+    
+    .contacto > .yo{
+        text-align: center;
+        font-family: var(--font-family);
+        margin-bottom: 50px;
+        font-size: 42px;
+        font-weight: normal;
+    }
+    
+    .contacto > .contenedor{
+        width: 90%;
+        height: 700px;
+        align-self: center;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .card-dos{
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        margin-bottom: 10px;
+        background: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        
+    }
+       
+    
+    .contenedor > .tres{
+        align-self: center;
+    }
+
+
+    footer > .pie > h4, p{
+        font-size: 18px;
+        text-align: center;
+        color: #34B0BE;
+    }
+
+    footer > .pie > p{
+        color: white;
+        text-align: center;
+    }
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background: #d1ceca50;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
 }
