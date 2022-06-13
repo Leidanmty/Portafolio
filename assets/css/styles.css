@@ -436,14 +436,14 @@ progress::-moz-progress-bar {
 footer{
     width: 100%;
     height: 300px;
-    background: #79797980;
+    background: #d1ceca50;
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
 
 footer > .pie{
-    margin-top: 150px;
+    margin-top: 100px;
     align-items: center;
 }
 
@@ -453,6 +453,58 @@ footer > .pie > h4{
     color: #34B0BE;
 }
 
+@media screen and ( max-width:1400px ) {        
+    main{
+        margin-top: 150px;
+    }
+
+    .rectangule{
+        background-color:#d1ceca50;
+        width: 50%;
+        height: 200px;
+        border-radius: 10px;
+        padding-top: 1.5rem;
+        align-self: center;
+        position: absolute;
+        top: 79%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .demi {
+        color: white;
+    }
+
+    .habilidad{
+        text-align: left;
+        margin-bottom: 25px;
+        padding-left: 250px;
+    }
+
+    .habilidad > p{
+        color: white;
+        text-align: start;
+    }
+
+    .sobremi, .servicios, .skill, .trabajos, .contacto{
+        margin-top: 100px;
+    }
+
+    footer > .pie > h4, p{
+        font-size: 18px;
+        text-align: center;
+        color: #34B0BE;
+    }
+
+    footer > .pie > p{
+        color: white;
+    }
+
+    footer > .pie{
+        margin-top: 125px;
+        align-items: center;
+    }
+}
 
 @media screen and ( min-width:600px ) {
     label{
@@ -466,5 +518,36 @@ footer > .pie > h4{
         flex-direction: row;
         height: auto;
         justify-content: flex-end;
+    }
+}
+
+@media screen and ( min-width:380px ) {
+    label{
+        display: none;
+    }
+
+    input#menu-hamburguesa ~ ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        justify-content: flex-end;
+    }
+
+    .circul{
+        background-color: #d1ceca50;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        align-self: center;
+    }
+    .part-two{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .part-two > img{
+        height: 280px;
     }
 }
