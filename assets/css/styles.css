@@ -322,7 +322,82 @@ progress::-moz-progress-bar {
     background-color: #34B0BE;
 }
     
+.trabajos{
+    margin-top: 300px;
+    padding: 1rem;
+}
 
+.trabajos > .yo{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: var(--font-seizeSubtitle);
+}
+
+.trabajos > .cuadro{
+    width: auto;
+    height: 500px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.cuadro::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.cuadro::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.cuadro::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.cuadro::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.cuadro::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f32f;
+}
+
+.contenedor::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.trabajos > .cuadro > .quest{
+    padding: 1rem;
+}
+
+.contacto{
+    margin-top: 350px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    overflow: hidden;
+}
+
+.contacto > .yo{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: var(--font-seizeSubtitle);
+}
+
+.contacto > .contenedor{
+    background-color: #34B0BE;
+    width: 70%;
+    height: 800px;
+    align-self: center;
+    overflow: hidden;
+}
+
+.card-dos{
+    width: 400px;
+    height: 400px;
+    background: white;
+}
 
 @media screen and ( min-width:600px ) {
     label{
