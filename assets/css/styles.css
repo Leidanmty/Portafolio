@@ -453,20 +453,20 @@ footer > .pie > h4{
     color: #34B0BE;
 }
 
-@media screen and ( max-width:1400px ) {        
+@media screen and ( min-width:800x ) {        
     main{
         margin-top: 150px;
     }
 
     .rectangule{
-        background-color:#d1ceca50;
+        background-color:#ce8424fb;
         width: 50%;
         height: 200px;
         border-radius: 10px;
         padding-top: 1.5rem;
         align-self: center;
         position: absolute;
-        top: 79%;
+        top: 30%;
         display: flex;
         justify-content: space-evenly;
     }
@@ -605,7 +605,7 @@ footer > .pie > h4{
         padding-top: 1.5rem;
         align-self: center;
         position: absolute;
-        top: 50%;
+        top: 48%;
         display: flex;
         justify-content: space-evenly;
         overflow: hidden;
