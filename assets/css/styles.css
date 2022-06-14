@@ -453,7 +453,7 @@ footer > .pie > h4{
     color: #34B0BE;
 }
 
-@media screen and ( min-width:800px ) {        
+@media screen and ( max-width:800px ) {        
     main{
         margin-top: 150px;
     }
@@ -466,7 +466,7 @@ footer > .pie > h4{
         padding-top: 1.5rem;
         align-self: center;
         position: absolute;
-        top: 30%;
+        top: 50%;
         display: flex;
         justify-content: space-evenly;
     }
