@@ -506,7 +506,7 @@ footer > .pie > h4{
     }
 }
 
-@media screen and ( min-width:400px ) {
+@media screen and ( min-width:420px ) {
     label{
         display: none;
     }
@@ -521,7 +521,7 @@ footer > .pie > h4{
     }
 }
 
-@media screen and ( min-width:300px ) {
+@media screen and ( max-width:420px ) {
     .circul{
         background-color: #d1ceca50;
         width: 300px;
