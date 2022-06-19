@@ -580,6 +580,22 @@ footer > .pie > h4{
     }
 }
 
+@media screen and (max-width:240px) {
+    .rectangule{
+        background-color: #d1ceca50;
+        width: 350px;
+        height: 100px;
+        border-radius: 10px;
+        padding-top: 1.5rem;
+        align-self: center;
+        position: absolute;
+        top: 25%;
+        display: flex;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+}
+
 @media screen and ( max-width:420px ) {
     .circul{
         background-color: #d1ceca50;
