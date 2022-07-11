@@ -160,8 +160,6 @@ p{
     border-radius: 10px;
     padding-top: 1.5rem;
     align-self: center;
-    position: absolute;
-    top: 64.5%;
     display: flex;
     justify-content: space-evenly;
 }
